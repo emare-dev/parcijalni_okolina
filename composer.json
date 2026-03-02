@@ -1,5 +1,19 @@
 {
+    "name": "parcijalni/okolina",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Parcijalni\\Okolina\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "parcijal-vb",
+            "email": "emare.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
-        "monolog/monolog": "^3.10"
+        "fakerphp/faker": "^1.24"
     }
 }
